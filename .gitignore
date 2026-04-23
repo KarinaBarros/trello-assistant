@@ -1,0 +1,66 @@
+# Ambiente virtual
+
+.lab-dio/
+venv/
+.env/
+
+# Python cache
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribuição / build
+
+build/
+dist/
+*.egg-info/
+
+# Logs
+
+*.log
+
+# Arquivos do sistema
+
+.DS_Store
+Thumbs.db
+
+# VSCode
+
+.vscode/
+
+# JetBrains (PyCharm)
+
+.idea/
+
+# Variáveis de ambiente
+
+.env
+.env.*
+
+# Arquivos temporários
+
+*.tmp
+*.swp
+
+# SQLite (caso use)
+
+*.sqlite3
+*.db
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# Coverage / testes
+
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ADK / configs locais (se existirem)
+
+*.local.json
+config.local.*
+.adk/
